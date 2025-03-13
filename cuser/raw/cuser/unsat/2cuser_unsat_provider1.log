@@ -1,5 +1,5 @@
-provider1|flocal|0|0.2950716018676758
-provider1|ffinal|0|0.31617045402526855
+provider1|flocal|2|0.2950716018676758
+provider1|ffinal|2|0.31617045402526855
 node_provider1|total_time|2|10.617852
 node_provider1|loops|2|7
 node_provider1|messages|2|2
