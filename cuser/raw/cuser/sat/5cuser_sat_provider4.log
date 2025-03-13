@@ -1,0 +1,9 @@
+provider4|flocal|0|0.28539276123046875
+provider4|flocal|0|0.20225882530212402
+provider4|flocal|0|0.19698786735534668
+provider4|ffinal|0|0.19774341583251953
+node_provider4|total_time|5|11.048659
+node_provider4|loops|5|9
+node_provider4|messages|5|3
+provider4|min_constraint|5|4
+provider4|max_constraint|5|4

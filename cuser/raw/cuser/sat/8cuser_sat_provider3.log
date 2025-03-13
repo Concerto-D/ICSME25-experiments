@@ -1,0 +1,10 @@
+provider3|flocal|0|0.28159213066101074
+provider3|flocal|0|0.1957550048828125
+provider3|flocal|0|0.19978904724121094
+provider3|flocal|0|0.19550681114196777
+provider3|ffinal|0|0.1993253231048584
+node_provider3|total_time|8|11.261456
+node_provider3|loops|8|8
+node_provider3|messages|8|4
+provider3|min_constraint|8|4
+provider3|max_constraint|8|4
