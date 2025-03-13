@@ -1,0 +1,7 @@
+transformer9|funsat|0|0.3094511032104492
+transformer9|funsat|0|0.19754576683044434
+node_transformer9|total_time|1|15.908942
+node_transformer9|loops|1|12
+node_transformer9|messages|1|0
+transformer9|min_constraint|1|4
+transformer9|max_constraint|1|4

@@ -1,0 +1,7 @@
+transformer5|flocal|0|0.2922704219818115
+transformer5|ffinal|0|0.22482633590698242
+node_transformer5|total_time|3|17.514494
+node_transformer5|loops|3|15
+node_transformer5|messages|3|2
+transformer5|min_constraint|3|2
+transformer5|max_constraint|3|2

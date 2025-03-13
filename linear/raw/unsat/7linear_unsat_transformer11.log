@@ -1,0 +1,8 @@
+transformer11|flocal|0|0.3093571662902832
+transformer11|funsat|0|0.20179009437561035
+transformer11|funsat|0|0.32041382789611816
+node_transformer11|total_time|7|14.181087
+node_transformer11|loops|7|15
+node_transformer11|messages|7|2
+transformer11|min_constraint|7|4
+transformer11|max_constraint|7|4
