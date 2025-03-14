@@ -61,6 +61,7 @@ def build_analysis(input):
 
 
 def finest_analysis(input,filename):
+    maxeffort = ""
     results = {}
     # iteration -> node -> list of solving time
     for entry in input:
@@ -80,8 +81,9 @@ def finest_analysis(input,filename):
             tt = sum(results[iteration][component])
             if tt > max:
                 max = tt
+                maxeffort = component
         maximums.append(max)
-    print(f"in average, the maximum local solving time in {filename} is : ", sum(maximums) / niteration)
+    print(f"in average, the maximum local solving time in {filename} is for {maxeffort} (chuffed + qx): ", sum(maximums) / niteration)
     
 
 if __name__ == "__main__":
