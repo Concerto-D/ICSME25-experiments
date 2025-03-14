@@ -1,0 +1,24 @@
+('mariadbworker0', 'servicev1', 'neutronworker0', 'mariadbservicev1')
+('keystoneworker0', 'servicev1', 'neutronworker0', 'keystoneservicev1')
+('mariadbworker0', 'servicev2', 'neutronworker0', 'mariadbservicev2')
+('keystoneworker0', 'servicev2', 'neutronworker0', 'keystoneservicev2')
+('mariadbworker0', 'servicev3', 'neutronworker0', 'mariadbservicev3')
+('keystoneworker0', 'servicev3', 'neutronworker0', 'keystoneservicev3')
+Run on port 40001
+{'mariadbmaster': {'address': 'gros-121.nancy.grid5000.fr', 'port_planner': 40001}, 'commonmaster': {'address': 'gros-121.nancy.grid5000.fr', 'port_planner': 40001}, 'haproxymaster': {'address': 'gros-121.nancy.grid5000.fr', 'port_planner': 40001}, 'memcachedmaster': {'address': 'gros-121.nancy.grid5000.fr', 'port_planner': 40001}, 'ovswitchmaster': {'address': 'gros-121.nancy.grid5000.fr', 'port_planner': 40001}, 'rabbitmqmaster': {'address': 'gros-121.nancy.grid5000.fr', 'port_planner': 40001}, 'factsmaster': {'address': 'gros-121.nancy.grid5000.fr', 'port_planner': 40001}, 'mariadbworker0': {'address': 'gros-26.nancy.grid5000.fr', 'port_planner': 40001}, 'commonworker0': {'address': 'gros-26.nancy.grid5000.fr', 'port_planner': 40001}, 'haproxyworker0': {'address': 'gros-26.nancy.grid5000.fr', 'port_planner': 40001}, 'memcachedworker0': {'address': 'gros-26.nancy.grid5000.fr', 'port_planner': 40001}, 'ovswitchworker0': {'address': 'gros-26.nancy.grid5000.fr', 'port_planner': 40001}, 'rabbitmqworker0': {'address': 'gros-26.nancy.grid5000.fr', 'port_planner': 40001}, 'factsworker0': {'address': 'gros-26.nancy.grid5000.fr', 'port_planner': 40001}, 'keystoneworker0': {'address': 'gros-26.nancy.grid5000.fr', 'port_planner': 40001}, 'glanceworker0': {'address': 'gros-26.nancy.grid5000.fr', 'port_planner': 40001}, 'neutronworker0': {'address': 'gros-27.nancy.grid5000.fr', 'port_planner': 40001}, 'novaworker0': {'address': 'gros-33.nancy.grid5000.fr', 'port_planner': 40001}}
+pinged ALL
+neutronworker0|flocal|0|0.46926283836364746
+neutronworker0|flocal|0|0.2776987552642822
+neutronworker0|ffinal|0|0.26419734954833984
+node_neutron0|total_time|0|7.477723
+node_neutron0|loops|0|4
+node_neutron0|messages|0|8
+neutronworker0|min_constraint|0|5
+neutronworker0|max_constraint|0|5
+neutronworker0|flocal|0|0.4763941764831543
+neutronworker0|ffinal|0|0.2793865203857422
+node_neutron0|total_time|0|4.935250
+node_neutron0|loops|0|2
+node_neutron0|messages|0|4
+neutronworker0|min_constraint|0|3
+neutronworker0|max_constraint|0|3

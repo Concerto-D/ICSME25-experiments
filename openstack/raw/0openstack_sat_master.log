@@ -1,0 +1,121 @@
+('factsmaster', 'servicev1', 'commonmaster', 'factsservicev1')
+('factsmaster', 'servicev1', 'haproxymaster', 'factsservicev1')
+('factsmaster', 'servicev1', 'memcachedmaster', 'factsservicev1')
+('factsmaster', 'servicev1', 'ovswitchmaster', 'factsservicev1')
+('factsmaster', 'servicev1', 'rabbitmqmaster', 'factsservicev1')
+('commonmaster', 'servicev1', 'mariadbmaster', 'commonservicev1')
+('haproxymaster', 'servicev1', 'mariadbmaster', 'haproxyservice')
+('mariadbmaster', 'servicev1', 'mariadbworker0', 'masterservicev1')
+('factsmaster', 'servicev2', 'commonmaster', 'factsservicev2')
+('factsmaster', 'servicev2', 'haproxymaster', 'factsservicev2')
+('factsmaster', 'servicev2', 'memcachedmaster', 'factsservicev2')
+('factsmaster', 'servicev2', 'ovswitchmaster', 'factsservicev2')
+('factsmaster', 'servicev2', 'rabbitmqmaster', 'factsservicev2')
+('commonmaster', 'servicev2', 'mariadbmaster', 'commonservicev2')
+('haproxymaster', 'servicev2', 'mariadbmaster', 'haproxyservice')
+('mariadbmaster', 'servicev2', 'mariadbworker0', 'masterservicev2')
+('factsmaster', 'servicev3', 'commonmaster', 'factsservicev3')
+('factsmaster', 'servicev3', 'haproxymaster', 'factsservicev3')
+('factsmaster', 'servicev3', 'memcachedmaster', 'factsservicev3')
+('factsmaster', 'servicev3', 'ovswitchmaster', 'factsservicev3')
+('factsmaster', 'servicev3', 'rabbitmqmaster', 'factsservicev3')
+('commonmaster', 'servicev3', 'mariadbmaster', 'commonservicev3')
+('haproxymaster', 'servicev3', 'mariadbmaster', 'haproxyservice')
+('mariadbmaster', 'servicev3', 'mariadbworker0', 'masterservicev3')
+Run on port 40001
+{'mariadbmaster': {'address': 'gros-121.nancy.grid5000.fr', 'port_planner': 40001}, 'commonmaster': {'address': 'gros-121.nancy.grid5000.fr', 'port_planner': 40001}, 'haproxymaster': {'address': 'gros-121.nancy.grid5000.fr', 'port_planner': 40001}, 'memcachedmaster': {'address': 'gros-121.nancy.grid5000.fr', 'port_planner': 40001}, 'ovswitchmaster': {'address': 'gros-121.nancy.grid5000.fr', 'port_planner': 40001}, 'rabbitmqmaster': {'address': 'gros-121.nancy.grid5000.fr', 'port_planner': 40001}, 'factsmaster': {'address': 'gros-121.nancy.grid5000.fr', 'port_planner': 40001}, 'mariadbworker0': {'address': 'gros-26.nancy.grid5000.fr', 'port_planner': 40001}, 'commonworker0': {'address': 'gros-26.nancy.grid5000.fr', 'port_planner': 40001}, 'haproxyworker0': {'address': 'gros-26.nancy.grid5000.fr', 'port_planner': 40001}, 'memcachedworker0': {'address': 'gros-26.nancy.grid5000.fr', 'port_planner': 40001}, 'ovswitchworker0': {'address': 'gros-26.nancy.grid5000.fr', 'port_planner': 40001}, 'rabbitmqworker0': {'address': 'gros-26.nancy.grid5000.fr', 'port_planner': 40001}, 'factsworker0': {'address': 'gros-26.nancy.grid5000.fr', 'port_planner': 40001}, 'keystoneworker0': {'address': 'gros-26.nancy.grid5000.fr', 'port_planner': 40001}, 'glanceworker0': {'address': 'gros-26.nancy.grid5000.fr', 'port_planner': 40001}, 'neutronworker0': {'address': 'gros-27.nancy.grid5000.fr', 'port_planner': 40001}, 'novaworker0': {'address': 'gros-33.nancy.grid5000.fr', 'port_planner': 40001}}
+pinged ALL
+factsmaster|flocal|0|0.4402334690093994
+ovswitchmaster|flocal|0|0.4429287910461426
+rabbitmqmaster|flocal|0|0.4429044723510742
+memcachedsmaster|flocal|0|0.4436798095703125
+haproxymaster|flocal|0|0.4447057247161865
+commonmaster|flocal|0|0.493330717086792
+mariadbmaster|flocal|0|0.6146936416625977
+haproxymaster|flocal|0|0.244828462600708
+ovswitchmaster|flocal|0|0.24477648735046387
+factsmaster|flocal|0|0.25322985649108887
+rabbitmqmaster|flocal|0|0.2621145248413086
+memcachedsmaster|flocal|0|0.26308679580688477
+commonmaster|flocal|0|0.30382823944091797
+mariadbmaster|flocal|0|0.4330887794494629
+memcachedsmaster|flocal|0|0.26615381240844727
+ovswitchmaster|flocal|0|0.2660846710205078
+haproxymaster|flocal|0|0.2666797637939453
+factsmaster|flocal|0|0.2654566764831543
+rabbitmqmaster|flocal|0|0.29980921745300293
+commonmaster|flocal|0|0.34474921226501465
+mariadbmaster|flocal|0|0.6200947761535645
+memcachedsmaster|flocal|0|0.246917724609375
+haproxymaster|flocal|0|0.2553389072418213
+rabbitmqmaster|flocal|0|0.26158714294433594
+ovswitchmaster|flocal|0|0.2620863914489746
+factsmaster|flocal|0|0.26399827003479004
+commonmaster|flocal|0|0.3526802062988281
+mariadbmaster|flocal|0|0.542980432510376
+memcachedsmaster|flocal|0|0.24676871299743652
+factsmaster|flocal|0|0.24636197090148926
+ovswitchmaster|flocal|0|0.24936246871948242
+rabbitmqmaster|flocal|0|0.26090288162231445
+haproxymaster|flocal|0|0.26865100860595703
+commonmaster|flocal|0|0.34497928619384766
+mariadbmaster|flocal|0|0.5134491920471191
+memcachedsmaster|ffinal|0|0.2320117950439453
+ovswitchmaster|ffinal|0|0.2361159324645996
+factsmaster|ffinal|0|0.25194334983825684
+haproxymaster|ffinal|0|0.2541799545288086
+rabbitmqmaster|ffinal|0|0.2539548873901367
+commonmaster|ffinal|0|0.35103845596313477
+mariadbmaster|ffinal|0|0.518620491027832
+node_master|total_time|0|9.382887
+node_master|loops|0|5
+node_master|messages|0|118
+memcachedsmaster|min_constraint|0|1
+commonmaster|max_constraint|0|17
+factsmaster|flocal|0|0.31818413734436035
+memcachedsmaster|flocal|0|0.323042631149292
+rabbitmqmaster|flocal|0|0.3243093490600586
+haproxymaster|flocal|0|0.3321101665496826
+ovswitchmaster|flocal|0|0.33185362815856934
+commonmaster|flocal|0|0.3750627040863037
+mariadbmaster|flocal|0|0.5065426826477051
+rabbitmqmaster|flocal|0|0.2284994125366211
+haproxymaster|flocal|0|0.22944974899291992
+memcachedsmaster|flocal|0|0.2292497158050537
+factsmaster|flocal|0|0.24364185333251953
+ovswitchmaster|flocal|0|0.2534060478210449
+commonmaster|flocal|0|0.29233860969543457
+mariadbmaster|flocal|0|0.4283761978149414
+haproxymaster|flocal|0|0.2476663589477539
+memcachedsmaster|flocal|0|0.2647855281829834
+rabbitmqmaster|flocal|0|0.2649524211883545
+ovswitchmaster|flocal|0|0.27810049057006836
+factsmaster|flocal|0|0.30298328399658203
+commonmaster|flocal|0|0.33658504486083984
+mariadbmaster|flocal|0|0.4310476779937744
+haproxymaster|flocal|0|0.25104808807373047
+ovswitchmaster|flocal|0|0.2519402503967285
+memcachedsmaster|flocal|0|0.25892066955566406
+factsmaster|flocal|0|0.2534365653991699
+rabbitmqmaster|flocal|0|0.25911593437194824
+commonmaster|flocal|0|0.32290029525756836
+mariadbmaster|flocal|0|0.5641460418701172
+memcachedsmaster|flocal|0|0.22922348976135254
+haproxymaster|flocal|0|0.2397310733795166
+rabbitmqmaster|flocal|0|0.2413187026977539
+factsmaster|flocal|0|0.24552655220031738
+ovswitchmaster|flocal|0|0.2516293525695801
+commonmaster|flocal|0|0.34223151206970215
+mariadbmaster|flocal|0|0.569080114364624
+ovswitchmaster|ffinal|0|0.23462271690368652
+rabbitmqmaster|ffinal|0|0.23451542854309082
+memcachedsmaster|ffinal|0|0.2505021095275879
+haproxymaster|ffinal|0|0.2575986385345459
+factsmaster|ffinal|0|0.2456498146057129
+commonmaster|ffinal|0|0.34042978286743164
+mariadbmaster|ffinal|0|0.5557169914245605
+node_master|total_time|0|8.320098
+node_master|loops|0|5
+node_master|messages|0|84
+memcachedsmaster|min_constraint|0|1
+commonmaster|max_constraint|0|17

@@ -1,0 +1,9 @@
+novaworker0|funsat|0|0.4032001495361328
+novaworker0|funsat|0|0.31804776191711426
+novaworker0|funsat|0|0.3291492462158203
+novaworker0|funsat|0|0.31876516342163086
+node_nova0|total_time|2|7.988618
+node_nova0|loops|2|5
+node_nova0|messages|2|0
+novaworker0|min_constraint|2|7
+novaworker0|max_constraint|2|7

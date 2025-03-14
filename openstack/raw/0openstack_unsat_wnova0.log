@@ -1,0 +1,27 @@
+('mariadbworker0', 'servicev1', 'novaworker0', 'mariadbservicev1')
+('keystoneworker0', 'servicev1', 'novaworker0', 'keystoneservicev1')
+('mariadbworker0', 'servicev2', 'novaworker0', 'mariadbservicev2')
+('keystoneworker0', 'servicev2', 'novaworker0', 'keystoneservicev2')
+('mariadbworker0', 'servicev3', 'novaworker0', 'mariadbservicev3')
+('keystoneworker0', 'servicev3', 'novaworker0', 'keystoneservicev3')
+Run on port 40001
+{'mariadbmaster': {'address': 'gros-121.nancy.grid5000.fr', 'port_planner': 40001}, 'commonmaster': {'address': 'gros-121.nancy.grid5000.fr', 'port_planner': 40001}, 'haproxymaster': {'address': 'gros-121.nancy.grid5000.fr', 'port_planner': 40001}, 'memcachedmaster': {'address': 'gros-121.nancy.grid5000.fr', 'port_planner': 40001}, 'ovswitchmaster': {'address': 'gros-121.nancy.grid5000.fr', 'port_planner': 40001}, 'rabbitmqmaster': {'address': 'gros-121.nancy.grid5000.fr', 'port_planner': 40001}, 'factsmaster': {'address': 'gros-121.nancy.grid5000.fr', 'port_planner': 40001}, 'mariadbworker0': {'address': 'gros-26.nancy.grid5000.fr', 'port_planner': 40001}, 'commonworker0': {'address': 'gros-26.nancy.grid5000.fr', 'port_planner': 40001}, 'haproxyworker0': {'address': 'gros-26.nancy.grid5000.fr', 'port_planner': 40001}, 'memcachedworker0': {'address': 'gros-26.nancy.grid5000.fr', 'port_planner': 40001}, 'ovswitchworker0': {'address': 'gros-26.nancy.grid5000.fr', 'port_planner': 40001}, 'rabbitmqworker0': {'address': 'gros-26.nancy.grid5000.fr', 'port_planner': 40001}, 'factsworker0': {'address': 'gros-26.nancy.grid5000.fr', 'port_planner': 40001}, 'keystoneworker0': {'address': 'gros-26.nancy.grid5000.fr', 'port_planner': 40001}, 'glanceworker0': {'address': 'gros-26.nancy.grid5000.fr', 'port_planner': 40001}, 'neutronworker0': {'address': 'gros-27.nancy.grid5000.fr', 'port_planner': 40001}, 'novaworker0': {'address': 'gros-33.nancy.grid5000.fr', 'port_planner': 40001}}
+pinged ALL
+novaworker0|funsat|0|0.428267240524292
+novaworker0|funsat|0|0.3154637813568115
+novaworker0|funsat|0|0.3242919445037842
+novaworker0|funsat|0|0.3308849334716797
+node_nova0|total_time|0|9.707885
+node_nova0|loops|0|9
+node_nova0|messages|0|0
+novaworker0|min_constraint|0|7
+novaworker0|max_constraint|0|7
+novaworker0|funsat|0|0.4235997200012207
+novaworker0|funsat|0|0.3205757141113281
+novaworker0|funsat|0|0.313215970993042
+novaworker0|funsat|0|0.3243248462677002
+node_nova0|total_time|0|7.530530
+node_nova0|loops|0|5
+node_nova0|messages|0|0
+novaworker0|min_constraint|0|7
+novaworker0|max_constraint|0|7

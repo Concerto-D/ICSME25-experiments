@@ -1,0 +1,157 @@
+('mariadbmaster', 'servicev1', 'mariadbworker0', 'masterservicev1')
+('factsworker0', 'servicev1', 'commonworker0', 'factsservicev1')
+('factsworker0', 'servicev1', 'haproxyworker0', 'factsservicev1')
+('factsworker0', 'servicev1', 'memcachedworker0', 'factsservicev1')
+('factsworker0', 'servicev1', 'ovswitchworker0', 'factsservicev1')
+('factsworker0', 'servicev1', 'rabbitmqworker0', 'factsservicev1')
+('commonworker0', 'servicev1', 'mariadbworker0', 'commonservicev1')
+('haproxyworker0', 'servicev1', 'mariadbworker0', 'haproxyservice')
+('mariadbworker0', 'servicev1', 'keystoneworker0', 'mariadbservicev1')
+('mariadbworker0', 'servicev1', 'glanceworker0', 'mariadbservicev1')
+('mariadbworker0', 'servicev1', 'novaworker0', 'mariadbservicev1')
+('mariadbworker0', 'servicev1', 'neutronworker0', 'mariadbservicev1')
+('keystoneworker0', 'servicev1', 'novaworker0', 'keystoneservicev1')
+('keystoneworker0', 'servicev1', 'neutronworker0', 'keystoneservicev1')
+('keystoneworker0', 'servicev1', 'glanceworker0', 'keystoneservicev1')
+('mariadbmaster', 'servicev2', 'mariadbworker0', 'masterservicev2')
+('factsworker0', 'servicev2', 'commonworker0', 'factsservicev2')
+('factsworker0', 'servicev2', 'haproxyworker0', 'factsservicev2')
+('factsworker0', 'servicev2', 'memcachedworker0', 'factsservicev2')
+('factsworker0', 'servicev2', 'ovswitchworker0', 'factsservicev2')
+('factsworker0', 'servicev2', 'rabbitmqworker0', 'factsservicev2')
+('commonworker0', 'servicev2', 'mariadbworker0', 'commonservicev2')
+('haproxyworker0', 'servicev2', 'mariadbworker0', 'haproxyservice')
+('mariadbworker0', 'servicev2', 'keystoneworker0', 'mariadbservicev2')
+('mariadbworker0', 'servicev2', 'glanceworker0', 'mariadbservicev2')
+('mariadbworker0', 'servicev2', 'novaworker0', 'mariadbservicev2')
+('mariadbworker0', 'servicev2', 'neutronworker0', 'mariadbservicev2')
+('keystoneworker0', 'servicev2', 'novaworker0', 'keystoneservicev2')
+('keystoneworker0', 'servicev2', 'neutronworker0', 'keystoneservicev2')
+('keystoneworker0', 'servicev2', 'glanceworker0', 'keystoneservicev2')
+('mariadbmaster', 'servicev3', 'mariadbworker0', 'masterservicev3')
+('factsworker0', 'servicev3', 'commonworker0', 'factsservicev3')
+('factsworker0', 'servicev3', 'haproxyworker0', 'factsservicev3')
+('factsworker0', 'servicev3', 'memcachedworker0', 'factsservicev3')
+('factsworker0', 'servicev3', 'ovswitchworker0', 'factsservicev3')
+('factsworker0', 'servicev3', 'rabbitmqworker0', 'factsservicev3')
+('commonworker0', 'servicev3', 'mariadbworker0', 'commonservicev3')
+('haproxyworker0', 'servicev3', 'mariadbworker0', 'haproxyservice')
+('mariadbworker0', 'servicev3', 'keystoneworker0', 'mariadbservicev3')
+('mariadbworker0', 'servicev3', 'glanceworker0', 'mariadbservicev3')
+('mariadbworker0', 'servicev3', 'novaworker0', 'mariadbservicev3')
+('mariadbworker0', 'servicev3', 'neutronworker0', 'mariadbservicev3')
+('keystoneworker0', 'servicev3', 'novaworker0', 'keystoneservicev3')
+('keystoneworker0', 'servicev3', 'neutronworker0', 'keystoneservicev3')
+('keystoneworker0', 'servicev3', 'glanceworker0', 'keystoneservicev3')
+Run on port 40001
+{'mariadbmaster': {'address': 'gros-121.nancy.grid5000.fr', 'port_planner': 40001}, 'commonmaster': {'address': 'gros-121.nancy.grid5000.fr', 'port_planner': 40001}, 'haproxymaster': {'address': 'gros-121.nancy.grid5000.fr', 'port_planner': 40001}, 'memcachedmaster': {'address': 'gros-121.nancy.grid5000.fr', 'port_planner': 40001}, 'ovswitchmaster': {'address': 'gros-121.nancy.grid5000.fr', 'port_planner': 40001}, 'rabbitmqmaster': {'address': 'gros-121.nancy.grid5000.fr', 'port_planner': 40001}, 'factsmaster': {'address': 'gros-121.nancy.grid5000.fr', 'port_planner': 40001}, 'mariadbworker0': {'address': 'gros-26.nancy.grid5000.fr', 'port_planner': 40001}, 'commonworker0': {'address': 'gros-26.nancy.grid5000.fr', 'port_planner': 40001}, 'haproxyworker0': {'address': 'gros-26.nancy.grid5000.fr', 'port_planner': 40001}, 'memcachedworker0': {'address': 'gros-26.nancy.grid5000.fr', 'port_planner': 40001}, 'ovswitchworker0': {'address': 'gros-26.nancy.grid5000.fr', 'port_planner': 40001}, 'rabbitmqworker0': {'address': 'gros-26.nancy.grid5000.fr', 'port_planner': 40001}, 'factsworker0': {'address': 'gros-26.nancy.grid5000.fr', 'port_planner': 40001}, 'keystoneworker0': {'address': 'gros-26.nancy.grid5000.fr', 'port_planner': 40001}, 'glanceworker0': {'address': 'gros-26.nancy.grid5000.fr', 'port_planner': 40001}, 'neutronworker0': {'address': 'gros-27.nancy.grid5000.fr', 'port_planner': 40001}, 'novaworker0': {'address': 'gros-33.nancy.grid5000.fr', 'port_planner': 40001}}
+pinged ALL
+ovswitchworker0|flocal|0|0.3562190532684326
+haproxyworker0|flocal|0|0.37442541122436523
+factsworker0|flocal|0|0.3749985694885254
+memcachedsworker0|flocal|0|0.3805100917816162
+keystoneworker0|flocal|0|0.4058103561401367
+rabbitmqworker0|flocal|0|0.42656493186950684
+glanceworker0|flocal|0|0.43115997314453125
+commonworker0|flocal|0|0.4339942932128906
+mariadbworker0|flocal|0|0.6502101421356201
+memcachedsworker0|flocal|0|0.3593764305114746
+ovswitchworker0|flocal|0|0.4102029800415039
+factsworker0|flocal|0|0.42288661003112793
+rabbitmqworker0|flocal|0|0.42920446395874023
+haproxyworker0|flocal|0|0.443073034286499
+glanceworker0|funsat|0|0.4211537837982178
+commonworker0|flocal|0|0.4581737518310547
+keystoneworker0|flocal|0|0.4682433605194092
+mariadbworker0|funsat|0|0.5322906970977783
+memcachedsworker0|flocal|0|0.26991963386535645
+factsworker0|flocal|0|0.27832555770874023
+ovswitchworker0|flocal|0|0.28048086166381836
+rabbitmqworker0|flocal|0|0.2809321880340576
+glanceworker0|funsat|0|0.29567694664001465
+haproxyworker0|flocal|0|0.31224703788757324
+keystoneworker0|flocal|0|0.3419613838195801
+commonworker0|flocal|0|0.3556194305419922
+mariadbworker0|funsat|0|0.4182863235473633
+memcachedsworker0|flocal|0|0.27097463607788086
+rabbitmqworker0|flocal|0|0.29341959953308105
+ovswitchworker0|flocal|0|0.3060722351074219
+factsworker0|flocal|0|0.3008146286010742
+glanceworker0|funsat|0|0.29459238052368164
+haproxyworker0|flocal|0|0.3133862018585205
+keystoneworker0|flocal|0|0.32067012786865234
+commonworker0|flocal|0|0.3767232894897461
+mariadbworker0|funsat|0|0.39419078826904297
+ovswitchworker0|ffinal|0|0.26141858100891113
+rabbitmqworker0|ffinal|0|0.27254414558410645
+memcachedsworker0|ffinal|0|0.28414297103881836
+glanceworker0|funsat|0|0.2738053798675537
+haproxyworker0|ffinal|0|0.29869866371154785
+factsworker0|ffinal|0|0.29727816581726074
+keystoneworker0|ffinal|0|0.3361358642578125
+commonworker0|ffinal|0|0.38707780838012695
+mariadbworker0|funsat|0|0.38890695571899414
+node_worker0|total_time|0|9.817609
+node_worker0|loops|0|4
+node_worker0|messages|0|89
+memcachedsworker0|min_constraint|0|1
+commonworker0|max_constraint|0|12
+factsworker0|flocal|0|0.32473087310791016
+haproxyworker0|flocal|0|0.3400590419769287
+rabbitmqworker0|flocal|0|0.3361549377441406
+memcachedsworker0|flocal|0|0.3483090400695801
+ovswitchworker0|flocal|0|0.3579437732696533
+keystoneworker0|flocal|0|0.3847355842590332
+glanceworker0|flocal|0|0.39640164375305176
+commonworker0|flocal|0|0.4172554016113281
+mariadbworker0|flocal|0|0.5884006023406982
+factsworker0|flocal|0|0.27270984649658203
+memcachedsworker0|flocal|0|0.28121113777160645
+ovswitchworker0|flocal|0|0.2837822437286377
+rabbitmqworker0|flocal|0|0.2838766574859619
+haproxyworker0|flocal|0|0.308563232421875
+glanceworker0|funsat|0|0.2927384376525879
+keystoneworker0|flocal|0|0.3395373821258545
+commonworker0|flocal|0|0.3714737892150879
+mariadbworker0|funsat|0|0.4014730453491211
+haproxyworker0|flocal|0|0.2591400146484375
+memcachedsworker0|flocal|0|0.27001237869262695
+rabbitmqworker0|flocal|0|0.2803027629852295
+ovswitchworker0|flocal|0|0.2812168598175049
+factsworker0|flocal|0|0.27813196182250977
+glanceworker0|funsat|0|0.2899038791656494
+keystoneworker0|flocal|0|0.3332173824310303
+commonworker0|flocal|0|0.3559408187866211
+mariadbworker0|funsat|0|0.4000582695007324
+ovswitchworker0|flocal|0|0.2543203830718994
+rabbitmqworker0|flocal|0|0.24791455268859863
+memcachedsworker0|flocal|0|0.283886194229126
+haproxyworker0|flocal|0|0.29065632820129395
+glanceworker0|funsat|0|0.2718498706817627
+factsworker0|flocal|0|0.3030531406402588
+keystoneworker0|flocal|0|0.307354211807251
+mariadbworker0|funsat|0|0.3766634464263916
+commonworker0|flocal|0|0.402496337890625
+memcachedsworker0|flocal|0|0.25586891174316406
+rabbitmqworker0|flocal|0|0.2669851779937744
+ovswitchworker0|flocal|0|0.2800736427307129
+factsworker0|flocal|0|0.2889094352722168
+glanceworker0|funsat|0|0.2874302864074707
+haproxyworker0|flocal|0|0.315349817276001
+keystoneworker0|flocal|0|0.33057618141174316
+commonworker0|flocal|0|0.3795022964477539
+mariadbworker0|funsat|0|0.4178040027618408
+memcachedsworker0|ffinal|0|0.2413039207458496
+ovswitchworker0|ffinal|0|0.24241852760314941
+rabbitmqworker0|ffinal|0|0.2583909034729004
+haproxyworker0|ffinal|0|0.2841653823852539
+glanceworker0|funsat|0|0.27171754837036133
+factsworker0|ffinal|0|0.279022216796875
+keystoneworker0|ffinal|0|0.36612844467163086
+commonworker0|ffinal|0|0.38785529136657715
+mariadbworker0|funsat|0|0.43603944778442383
+node_worker0|total_time|0|8.051551
+node_worker0|loops|0|5
+node_worker0|messages|0|119
+memcachedsworker0|min_constraint|0|1
+factsworker0|max_constraint|0|13
