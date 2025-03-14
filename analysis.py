@@ -83,8 +83,10 @@ def finest_analysis(input,filename):
                 max = tt
                 maxeffort = component
         maximums.append(max)
-    print(f"in average, the maximum local solving time in {filename} is for {maxeffort} (chuffed + qx): ", sum(maximums) / niteration)
-    
+    avg = sum(maximums) / niteration
+    variance = sum((x - avg) ** 2 for x in maximums) / niteration
+    std_deviation = math.sqrt(variance)
+    print(f"in average, the maximum local solving time in {filename} is for {maxeffort} (chuffed + qx): {avg}   (V={variance}, σ={std_deviation})" )
 
 if __name__ == "__main__":
     results = load_results(FILES)
