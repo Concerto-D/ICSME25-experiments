@@ -1,5 +1,5 @@
-transformer10|funsat|0|0.5793206691741943
-transformer10|funsat|0|0.20541977882385254
+transformer10|funsat|5|0.5793206691741943
+transformer10|funsat|5|0.20541977882385254
 node_transformer10|total_time|5|16.942127
 node_transformer10|loops|5|16
 node_transformer10|messages|5|0

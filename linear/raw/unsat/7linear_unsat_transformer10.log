@@ -1,6 +1,6 @@
-transformer10|flocal|0|0.30420589447021484
-transformer10|funsat|0|0.20288920402526855
-transformer10|funsat|0|0.19961261749267578
+transformer10|flocal|7|0.30420589447021484
+transformer10|funsat|7|0.20288920402526855
+transformer10|funsat|7|0.19961261749267578
 node_transformer10|total_time|7|14.940777
 node_transformer10|loops|7|14
 node_transformer10|messages|7|2

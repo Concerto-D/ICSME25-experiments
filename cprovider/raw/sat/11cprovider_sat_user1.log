@@ -1,0 +1,11 @@
+user1|flocal|11|0.2929544448852539
+user1|flocal|11|0.20131421089172363
+user1|flocal|11|0.19833159446716309
+user1|flocal|11|0.19888639450073242
+user1|flocal|11|0.20882534980773926
+user1|ffinal|11|0.2011423110961914
+node_user2|total_time|11|9.683441
+node_user2|loops|11|5
+node_user2|messages|11|10
+user1|min_constraint|11|3
+user1|max_constraint|11|3

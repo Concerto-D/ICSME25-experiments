@@ -1,5 +1,5 @@
-user1|flocal|0|0.28007984161376953
-user1|ffinal|0|0.19995784759521484
+user1|flocal|3|0.28007984161376953
+user1|ffinal|3|0.19995784759521484
 node_user1|total_time|3|16.024627
 node_user1|loops|3|16
 node_user1|messages|3|6

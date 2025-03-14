@@ -1,7 +1,0 @@
-provider|flocal|0|0.29264187812805176
-provider|ffinal|0|0.17612075805664062
-node0|total_time|6|17.973631
-node0|loops|6|18
-node0|messages|6|30
-provider|min_constraint|6|1
-provider|max_constraint|6|1
