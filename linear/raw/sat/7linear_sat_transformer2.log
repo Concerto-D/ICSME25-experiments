@@ -1,5 +1,5 @@
-transformer2|flocal|0|0.30266785621643066
-transformer2|ffinal|0|0.2209157943725586
+transformer2|flocal|7|0.30266785621643066
+transformer2|ffinal|7|0.2209157943725586
 node_transformer2|total_time|7|25.372251
 node_transformer2|loops|7|20
 node_transformer2|messages|7|2

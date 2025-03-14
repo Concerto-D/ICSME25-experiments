@@ -1,8 +1,8 @@
-enduser|flocal|0|0.28979039192199707
-enduser|flocal|0|0.20178937911987305
-enduser|flocal|0|0.2001481056213379
-enduser|flocal|0|0.20378994941711426
-enduser|ffinal|0|0.20197248458862305
+enduser|flocal|1|0.28979039192199707
+enduser|flocal|1|0.20178937911987305
+enduser|flocal|1|0.2001481056213379
+enduser|flocal|1|0.20378994941711426
+enduser|ffinal|1|0.20197248458862305
 node_enduser|total_time|1|19.548358
 node_enduser|loops|1|16
 node_enduser|messages|1|24

@@ -1,7 +1,13 @@
 import csv
 import math
 
-FILES = ["cuser/cuser_sat.log","cuser/cuser_unsat.log"]
+FILES = ["cuser/cuser_sat.log","cuser/cuser_unsat.log",
+         "cprovider/cprovider_sat.log", "cprovider/cprovider_unsat.log", 
+         "linear/linear_sat.log", "linear/linear_unsat.log", 
+         "circular/circular_sat.log", "circular/circular_unsat.log", 
+         "stratified/stratified_sat.log", "stratified/stratified_unsat.log"
+        #  "openstack/openstack_sat", "openstack/openstack_unsat"
+         ]
 
 class Entry:
 
@@ -15,7 +21,7 @@ class Entry:
 def load_results(files):
     res = {}
     for file in files:
-        print(file)
+        # print(file)
         res[file] = load_result(file)
     return res
 
@@ -47,7 +53,7 @@ def build_analysis(input):
         for iteration in results[file].keys():
             max_entry = max(results[file][iteration], key=lambda x: x[1])
             max_entries.append(max_entry[1])
-            print(f"On itration {iteration} of {file} -> Maximum value: {max_entry[1]}, found at: {max_entry[0]}")
+            # print(f"On itration {iteration} of {file} -> Maximum value: {max_entry[1]}, found at: {max_entry[0]}")
         average = sum(max_entries) / len(max_entries) if max_entries else 0
         variance = sum((x - average) ** 2 for x in max_entries) / len(max_entries) if max_entries else 0
         std_deviation = math.sqrt(variance)
