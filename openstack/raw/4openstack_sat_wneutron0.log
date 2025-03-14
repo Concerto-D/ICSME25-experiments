@@ -1,6 +1,0 @@
-neutronworker0|ffinal|0|0.35319995880126953
-node_neutron0|total_time|4|2.046489
-node_neutron0|loops|4|1
-node_neutron0|messages|4|0
-neutronworker0|min_constraint|4|1
-neutronworker0|max_constraint|4|1

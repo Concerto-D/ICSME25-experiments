@@ -1,7 +1,0 @@
-novaworker0|flocal|0|0.7222213745117188
-novaworker0|ffinal|0|0.44242143630981445
-node_nova0|total_time|7|7.131370
-node_nova0|loops|7|5
-node_nova0|messages|7|5
-novaworker0|min_constraint|7|5
-novaworker0|max_constraint|7|5

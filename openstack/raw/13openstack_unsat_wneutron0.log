@@ -1,8 +1,0 @@
-neutronworker0|funsat|0|0.31056857109069824
-neutronworker0|funsat|0|0.23302412033081055
-neutronworker0|funsat|0|0.2270793914794922
-node_neutron0|total_time|13|5.777547
-node_neutron0|loops|13|3
-node_neutron0|messages|13|0
-neutronworker0|min_constraint|13|6
-neutronworker0|max_constraint|13|6

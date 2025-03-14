@@ -1,0 +1,9 @@
+neutronworker0|flocal|4|0.3784751892089844
+neutronworker0|flocal|4|0.2807803153991699
+neutronworker0|flocal|4|0.2755577564239502
+neutronworker0|ffinal|4|0.279524564743042
+node_neutron0|total_time|4|6.380772
+node_neutron0|loops|4|6
+node_neutron0|messages|4|6
+neutronworker0|min_constraint|4|3
+neutronworker0|max_constraint|4|3
