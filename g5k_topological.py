@@ -331,7 +331,7 @@ def run_stratified(roles, ite, result_dir):
         # p.shell(f"rm {project_dir}run_end_user.py")
 
 if __name__ == "__main__":
-    timestamp="2"
+    timestamp = int(time.time())
     result_dir = f"/tmp/{timestamp}/"
     roles, networks = book(site="nancy", cluster="gros")
     with play_on(pattern_hosts=_BALLET, roles=roles, run_as=username) as p:
