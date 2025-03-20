@@ -7,7 +7,6 @@ import time
 import argparse
 import json
 
-
 username = get_api_username()
 project_dir = f"/home/{username}/Project/Ballet/"
 minizinc = f"/home/{username}/Software/MiniZincIDE-2.7.6-bundle-linux-x86_64/bin"
@@ -156,7 +155,7 @@ def run(roles, ite, result_dir):
         p.shell(f"rm {project_dir}run_master.py ")
 
 if __name__ == "__main__":
-    timestamp="2"
+    timestamp = int(time.time()) # Unix timestamp in seconds
     result_dir = f"/tmp/{timestamp}/"
     roles, networks = book(site="nancy", cluster="gros")
     with play_on(pattern_hosts=_BALLET, roles=roles, run_as=username) as p:
