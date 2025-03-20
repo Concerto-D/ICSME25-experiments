@@ -17,11 +17,10 @@ def minizinc_path():
 
 _COMPONENT=15    
 _NEXPE = 10
-_DEFAULT_TIME = "01:55:00"
+_DEFAULT_TIME = "02:00:00"
 _DEFAULT_START = "now"
 
-# _SCENARIOS = ["cuser"]
-_SCENARIOS = ["linear","circular","stratified"]
+_SCENARIOS = ["linear","circular","stratified","cuser","cprovider"]
 
 _PORT = 40001
 
